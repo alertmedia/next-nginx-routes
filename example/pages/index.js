@@ -28,6 +28,16 @@ export default function IndexPage() {
           <a>Hello world example</a>
         </Link>
       </li>
+      <li>
+        <Link href="/detail">
+          <a>Detail Parent Route</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/detail/child">
+          <a>Detail Sub Route</a>
+        </Link>
+      </li>
     </ul>
   );
 }
